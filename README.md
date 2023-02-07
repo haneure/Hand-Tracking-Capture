@@ -2,7 +2,7 @@
 
 ## Reference
 ### Python
-[hand-gesture-recognition-using-mediapipe English](https://github.com/kinivi/hand-gesture-recognition-mediapipe) //
+[hand-gesture-recognition-using-mediapipe English](https://github.com/kinivi/hand-gesture-recognition-mediapipe) /
 [hand-gesture-recognition-using-mediapipe Japanese(Original)](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
 
 ### Unity
