@@ -11,3 +11,12 @@ landmark-matome-v1.1
 1 Open
 2 OnePointForward
 3 TwoPointForward (enhanced)
+
+V1.2
+landmark-matome-v1.2
+0 Backhand
+1 Open
+2 OnePointForward
+3 TwoPointForward (enhanced)
+4 Grab
+5 Normal
