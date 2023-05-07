@@ -1,0 +1,13 @@
+V1
+landmark-matome
+0 Backhand
+1 Open
+2 OnePointForward
+3 TwoPointForward
+
+V1.1
+landmark-matome-v1.1
+0 Backhand
+1 Open
+2 OnePointForward
+3 TwoPointForward (enhanced)
