@@ -355,6 +355,7 @@ def main():
 
                 # Hand gesture classification
                 # pre_processed_landmark_list.insert(0, type2)
+                # print(data['left']['lmList'])
                 hand_sign_id = landmark_classifier([pre_processed_landmark_list])
                 draw_hand_info(img, hand2, landmark_classifier_label[hand_sign_id])
                 if hand2['type'] == 'Left':
@@ -384,6 +385,7 @@ def main():
 
             # Hand gesture classification
             # pre_processed_landmark_list.insert(0, type1)
+            # print(data['left']['lmList'])
             hand_sign_id = landmark_classifier([pre_processed_landmark_list])
             draw_hand_info(img, hand1, landmark_classifier_label[hand_sign_id])
             if hand1['type'] == 'Left':
@@ -452,6 +454,7 @@ def get_landmark(hand, mode):
                 data['left']['distance'] = distance
 
         else:
+            print(hand)
             lmList = hand['lmList']
 
             if lmCount == 0:
@@ -475,7 +478,7 @@ def get_landmark(hand, mode):
                 lmCount -= 1
 
             distance = get_distance(hand)
-            print("left distance: ", distance)
+            # print("left distance: ", distance)
 
             for lm in lmList:
                 tempData.extend([lm[0], height - lm[1], lm[2]])
@@ -501,7 +504,7 @@ def get_landmark(hand, mode):
             lmList = hand['lmList']
 
             distance = get_distance(hand)
-            print("right distance: ", distance)
+            # print("right distance: ", distance)
 
             for lm in lmList:
                 tempData.extend([lm[0], height - lm[1], lm[2]])
