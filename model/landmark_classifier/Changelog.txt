@@ -20,3 +20,7 @@ landmark-matome-v1.2
 3 TwoPointForward (enhanced)
 4 Grab
 5 Normal
+
+V1.3
+Add landmark classifier
+Landmark-matome-case3
