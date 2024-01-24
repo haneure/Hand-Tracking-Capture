@@ -7,11 +7,15 @@ This Python project can run alone. This program will use your camera and will pr
 
 ### Commands (keyboard keys)
 ## r - record mode
-<a><img src="./images/record-mode.jpg" alt="Thumbnail" width="400"/></a>
+</br>
+<a><img src="./images/record-mode.png" alt="Thumbnail" width="400"/></a>
+</br>
 Will enter record mode
+
 ## 0 - 9
+<a><img src="./images/record-mode-active.png" alt="Thumbnail" width="400"/></a>
+</br>
 In record mode, you can record currently detected hand landmarks and output it into a .csv file. The .csv file is automatically incremented.
-<a><img src="./images/record-mode-active" alt="Thumbnail" width="400"/></a>
 
 ## n - normal mode
 Return to normal mode (detecting hands only)
