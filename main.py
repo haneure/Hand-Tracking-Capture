@@ -55,6 +55,7 @@ data = {
 # Camera Settings
 width, height = 1280, 720
 
+
 @deprecated("It is not used in any case")
 def modify_lmToTest():
     global lmToTestLandmarkIndex
