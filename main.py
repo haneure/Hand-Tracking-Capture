@@ -190,7 +190,7 @@ def modify_lmToTest():
         label[lmToTestLandmarkIndex * 3 + 1] = yModifier
         label[lmToTestLandmarkIndex * 3 + 2] = zModifier
 
-        print(label)
+        # print(label)
 
         for lm in lmToTest:
             tempDataToTest.extend([lm[0], height - lm[1], lm[2]])
@@ -244,7 +244,7 @@ def main():
     isRecording = 1
 
     # Webcam
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3, width)
     cap.set(4, height)
     webcamCount = 0
@@ -454,7 +454,7 @@ def get_landmark(hand, mode):
                 data['left']['distance'] = distance
 
         else:
-            print(hand)
+            # print(hand)
             lmList = hand['lmList']
 
             if lmCount == 0:
@@ -544,7 +544,7 @@ def pre_process_landmark(landmark_list):
     return temp_landmark_list
 
 
-def draw_hand_info(img, hand, hand_gesture):
+def draw_hand_info(     img, hand, hand_gesture):
     x, y, w, h = hand['bbox']
 
     cv2.putText(img, hand_gesture, (x, y - 60),
@@ -687,7 +687,6 @@ def get_distance(hand):
                 cv2.LINE_AA)
 
     return distanceCM
-
 
 if __name__ == '__main__':
     main()
